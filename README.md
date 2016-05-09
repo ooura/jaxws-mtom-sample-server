@@ -19,7 +19,7 @@ This is server program for JAX-WS MTOM file transfer on servlet container.
     ```
 
 2. Deploy to tomcat. (or other container.)
-
+    ex.
     ```
     $ cp target/jaxws-mtom-sample-server.war $CATALINA_HOME/webapps/
     ```
