@@ -13,18 +13,22 @@ This is server program for JAX-WS MTOM file transfer on servlet container.
 
 # Setup
 1. Build
-```
-$ mvn compile war:war
-```
+
+    ```
+    $ mvn compile war:war
+    ```
+
 2. Deploy to tomcat. (or other container.)
-```
-$ cp target/jaxws-mtom-sample-server.war $CATALINA_HOME/webapps/
-```
+
+    ```
+    $ cp target/jaxws-mtom-sample-server.war $CATALINA_HOME/webapps/
+    ```
+
 3. If your container is not running, run your container.  
-ex.
-```
-$ startup.sh
-```
+    ex.
+    ```
+    $ startup.sh
+    ```
  - NOTE: When clients upload files, those files are stored in below. 
     ./UploadedFiles/yyyyMMdd-HHmmss/
 
